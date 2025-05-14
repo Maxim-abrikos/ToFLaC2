@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\arrow-left.png" />
+    <None Remove="Images\arrow-right.png" />
+    <None Remove="Images\comments.png" />
+    <None Remove="Images\cut.png" />
+    <None Remove="Images\duplicate.png" />
+    <None Remove="Images\files.png" />
+    <None Remove="Images\g.jpg" />
+    <None Remove="Images\open-file.png" />
+    <None Remove="Images\paste.png" />
+    <None Remove="Images\quality.png" />
+    <None Remove="Images\save.png" />
+    <None Remove="Images\timg.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\arrow-left.png" />
+    <Resource Include="Images\arrow-right.png" />
+    <Resource Include="Images\comments.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\duplicate.png" />
+    <Resource Include="Images\files.png" />
+    <Resource Include="Images\g.jpg" />
+    <Resource Include="Images\open-file.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\quality.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\timg.jpg" />
+  </ItemGroup>
+
+</Project>

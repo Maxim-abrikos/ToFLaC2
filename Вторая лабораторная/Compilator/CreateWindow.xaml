@@ -1,0 +1,14 @@
+﻿<Window x:Class="Compilator.CreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Compilator"
+        mc:Ignorable="d"
+        Title="Создание файла" Height="150" Width="220">
+    <Grid Margin="0,0,0,-6">
+        <TextBox x:Name="TBFileName" HorizontalAlignment="Center" Margin="0,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="MegaButton" Content="Создать файл" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.983,-0.668" Width="120" Click="MegaButton_Click"/>
+
+    </Grid>
+</Window>
