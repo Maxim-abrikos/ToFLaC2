@@ -20,6 +20,7 @@
 * Complex F = new Complex (-0.4, 17);
   
 Диаграмма состояний сканера:  
+![Снимок экрана (1870)](https://github.com/user-attachments/assets/9302a19c-5b48-45ab-886d-d56f679218df)  
 
 
 Тестовые примеры:  
